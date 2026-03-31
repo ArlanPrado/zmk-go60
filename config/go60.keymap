@@ -141,7 +141,7 @@
             bindings = <
 &kp GRAVE  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                                                             &kp F6         &kp F7     &kp F8     &kp F9        &kp F10           &kp F11
 &trans     &none      &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB4                                                           &kp PAGE_UP    &trans     &kp UP     &trans        &kp MINUS         &kp EQUAL
-&trans     &kp LC(Y)  &kp LEFT   &kp DOWN   &kp RIGHT  &mkp MB5                                                           &kp PAGE_DOWN  &kp LEFT   &kp DOWN   &kp RIGHT     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans     &kp LC(Y)  &trans     &trans     &trans     &mkp MB5                                                           &kp PAGE_DOWN  &kp LEFT   &kp DOWN   &kp RIGHT     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &tog 3     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LS(LC(V))                                                      &kp KP_N1      &kp KP_N2  &kp KP_N3  &kp KP_ENTER  &kp EQUAL         &kp F12
                       &none      &trans     &trans                                                                                       &trans     &trans     &trans
                                                                       &none  &soundswitch  &none  &trans  &trans  &trans
@@ -152,7 +152,7 @@
             bindings = <
 &kp TILDE       &bt_0   &bt_1         &bt_2             &bt_3         &trans                                                         &trans      &trans  &trans  &trans  &trans          &trans
 &trans          &trans  &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LG(DOWN)  &kp LG(RIGHT)                                                  &trans      &trans  &trans  &trans  &kp UNDERSCORE  &kp PLUS
-&bt BT_CLR_ALL  &trans  &kp LEFT      &kp DOWN          &kp RIGHT     &kp LG(LS(S))                                                  &kp LA(F4)  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE
+&bt BT_CLR_ALL  &trans  &trans        &trans            &trans        &kp LG(LS(S))                                                  &kp LA(F4)  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE
 &trans          &trans  &kp LA(LEFT)  &kp LA(UP_ARROW)  &kp LA(DOWN)  &kp LA(RIGHT)                                                  &trans      &trans  &trans  &trans  &trans          &trans
                         &trans        &trans            &trans                                                                                   &trans  &trans  &trans
                                                                                      &trans  &trans  &trans  &trans  &trans  &trans
