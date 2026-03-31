@@ -121,10 +121,10 @@
 
         layer_Base {
             bindings = <
-&kp ESC         &kp N1  &kp N2        &kp N3        &kp N4        &kp N5                                                                      &kp N6  &kp N7    &kp N8     &kp N9      &kp N0         &kp LA(LC(TAB))
+&kp ESC         &kp N1  &kp N2        &kp N3        &kp N4        &kp N5                                                                      &kp N6  &kp N7    &kp N8     &kp N9      &kp N0         &kp LA(LC(BACKSPACE))
 &kp TAB         &kp Q   &kp W         &kp F         &kp P         &kp B                                                                       &kp J   &kp L     &kp U      &kp Y       &kp SEMICOLON  &kp BSLH
 &kp LEFT_SHIFT  &kp A   &kp R         &kp S         &kp T         &kp G                                                                       &kp M   &kp N     &kp E      &kp I       &kp O          &kp SQT
-&mo 3           &kp Z   &kp X         &kp C         &kp D         &kp V                                                                       &kp K   &kp H     &kp COMMA  &kp DOT     &kp FSLH       &kp ENTER
+&kp LCTRL       &kp Z   &kp X         &kp C         &kp D         &kp V                                                                       &kp K   &kp H     &kp COMMA  &kp DOT     &kp FSLH       &kp ENTER
                         &kp CAPSLOCK  &kp LEFT_WIN  &kp LEFT_ALT                                                                                      &kp HOME  &kp END    &kp DELETE
                                                                           &mo 1  &kp SPACE  &kp LCTRL  &kp BACKSPACE  &kp RIGHT_SHIFT  &mo 2
             >;
@@ -135,7 +135,7 @@
 &kp GRAVE  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                                                                 &kp F6         &kp F7     &kp F8     &kp F9        &kp F10           &kp F11
 &trans     &none      &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB4                                                               &kp PAGE_UP    &trans     &kp UP     &trans        &kp MINUS         &kp EQUAL
 &trans     &kp LC(Y)  &kp LEFT   &kp DOWN   &kp RIGHT  &mkp MB5                                                               &kp PAGE_DOWN  &kp LEFT   &kp DOWN   &kp RIGHT     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LS(LC(V))                                                          &kp KP_N1      &kp KP_N2  &kp KP_N3  &kp KP_ENTER  &kp EQUAL         &kp F12
+&tog 3     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LS(LC(V))                                                          &kp KP_N1      &kp KP_N2  &kp KP_N3  &kp KP_ENTER  &kp EQUAL         &kp F12
                       &none      &trans     &trans                                                                                           &trans     &trans     &trans
                                                                       &none  &trans  &kp LC(LA(F11))  &trans  &trans  &trans
             >;
