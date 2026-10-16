@@ -150,12 +150,12 @@
 
         layer_SymbolNav {
             bindings = <
-&kp TILDE       &bt_0   &bt_1         &bt_2             &bt_3         &trans                                                         &trans      &trans  &trans  &trans  &trans          &trans
-&trans          &trans  &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LG(DOWN)  &kp LG(RIGHT)                                                  &trans      &trans  &trans  &trans  &kp UNDERSCORE  &kp PLUS
-&bt BT_CLR_ALL  &trans  &trans        &trans            &trans        &kp LG(LS(S))                                                  &kp LA(F4)  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans          &trans  &kp LA(LEFT)  &kp LA(UP_ARROW)  &kp LA(DOWN)  &kp LA(RIGHT)                                                  &trans      &trans  &trans  &trans  &trans          &trans
-                        &trans        &trans            &trans                                                                                   &trans  &trans  &trans
-                                                                                     &trans  &trans  &trans  &trans  &trans  &trans
+&kp TILDE  &bt_0   &bt_1         &bt_2             &bt_3         &trans                                                         &bt BT_CLR_ALL  &trans  &trans  &trans  &trans          &trans
+&trans     &trans  &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LG(DOWN)  &kp LG(RIGHT)                                                  &trans          &trans  &trans  &trans  &kp UNDERSCORE  &kp PLUS
+&trans     &trans  &trans        &trans            &trans        &kp LG(LS(S))                                                  &kp LA(F4)      &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE
+&trans     &trans  &kp LA(LEFT)  &kp LA(UP_ARROW)  &kp LA(DOWN)  &kp LA(RIGHT)                                                  &trans          &trans  &trans  &trans  &trans          &trans
+                   &trans        &trans            &trans                                                                                       &trans  &trans  &trans
+                                                                                &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
